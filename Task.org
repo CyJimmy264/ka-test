@@ -41,5 +41,3 @@
     наткнусь на необходимость.
 *** 23:07:34
     rails new ka-test --css bootstrap
-
-    
