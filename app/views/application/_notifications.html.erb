@@ -1,8 +1,8 @@
 <div id="notifications">
   <% flash.each do |type, msg| %>
-    <p class="<%= type %>">
+    <div class="<%= notification_classes(type) %>">
       <%= msg %>
-    </p>
+    </div>
   <% end %>
 </div>
 

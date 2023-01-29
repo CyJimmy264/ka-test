@@ -1,7 +1,6 @@
 <div id="<%= dom_id room %>">
-  <p>
-    <strong>Name:</strong>
-    <%= room.name %>
-  </p>
-
+  <li class="list-group-item d-flex justify-content-between">
+    <strong><%= link_to room.name, room %></strong>
+    <span class="badge bg-primary rounded-pill"><%= room.messages_count %></span>
+  </li>
 </div>

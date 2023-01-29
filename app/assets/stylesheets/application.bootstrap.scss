@@ -1,7 +1,6 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
-turbo-frame {
-  display: block;
-  border: 1px solid blue;
+main > .container {
+  padding: 60px 15px 0;
 }

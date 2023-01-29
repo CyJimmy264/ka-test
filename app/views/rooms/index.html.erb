@@ -1,12 +1,11 @@
 <h1>Rooms</h1>
 
-<div id="rooms">
+<ul id="rooms" class="list-group">
   <% @rooms.each do |room| %>
     <%= render room %>
-    <p>
-      <%= link_to "Show this room", room %>
-    </p>
   <% end %>
-</div>
+</ul>
 
-<%= link_to "New room", new_room_path %>
+<br/>
+
+<%= link_to "New room", new_room_path, class: 'btn btn-primary' %>

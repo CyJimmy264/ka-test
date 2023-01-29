@@ -4,7 +4,7 @@ class RoomsController < ApplicationController
 
   # GET /rooms or /rooms.json
   def index
-    @rooms = Room.all
+    @rooms = Room.select('rooms.*, COUNT(messages.id) as messages_count').left_joins(:messages).group(:id)
   end
 
   # GET /rooms/1 or /rooms/1.json
