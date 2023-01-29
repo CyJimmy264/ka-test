@@ -1,5 +1,8 @@
 <%= turbo_stream_from @room %>
 
+<%= turbo_stream_from(:messages) %>
+<div data-controller="messages_stream"></div>
+
 <%= turbo_frame_tag "room" do %>
   <h1>
     <%= @room.name %>

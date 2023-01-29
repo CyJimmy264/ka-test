@@ -6,3 +6,6 @@ import { application } from "./application"
 
 import ResetFormController from "./reset_form_controller"
 application.register("reset_form", ResetFormController)
+
+import MessagesStreamController from "./messages_stream_controller"
+application.register("messages_stream", MessagesStreamController)

@@ -1,5 +1,5 @@
 <p id="<%= dom_id message %>">
   (<%= message.created_at.to_fs(:short) %>)
-  <%= message.user.email if message.user.present? %>:
+  <% if message.user.present? %><strong><%= message.user.email %></strong><% end %>:
   <%= message.content %>
 </p>

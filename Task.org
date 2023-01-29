@@ -26,16 +26,23 @@
    - общий результат с точки зрения пользователя
    - скорость выполнения
 ** Docs
-   - https://www.youtube.com/watch?v=eKY-QES1XQQ
+   - https://www.youtube.com/watch?v=eKY-QES1XQQ (Hotwire: The Demo)
+
+   По подпискам, дополнительно:
+   - https://blog.kiprosh.com/broadcasting-your-turbo-streams-as-you-want-them-in-rails-7/
    - https://www.hotrails.dev/turbo-rails/turbo-streams
+   - https://discuss.hotwired.dev/t/count-turbo-stream-subscribers/2717
+   - https://www.youtube.com/watch?v=sZRcSIho5Uo (Hotwire и Rails, урок #5 |
+     Слушаем подписки TurboStream, условный рендер, ленивые фреймы, Stimulus)
+
 ** Tasks
    - [X] Rooms on main
    - [X] Create room
    - [X] Messages history
    - [X] Send message
    - [X] Chat live update
-   - [ ] Toast
-   - [ ] Sound
+   - [X] Toast
+   - [X] Sound
 ** 28/01/2023
 *** 19:32:11
     Hotwire: The Demo.
@@ -54,3 +61,10 @@
     из консоли.
 
     Теперь наверное надо добавить пользователей.
+*** 20:03:05
+    Для подписки на все поступающие сообщения надо найти подходящее решение.
+
+    Попробовать самый простой вариант без Action Cable.
+** 30/01/2023
+*** 01:22:26
+    Всё оказалось проще чем казалось.
